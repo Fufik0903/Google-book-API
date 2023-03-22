@@ -1,0 +1,29 @@
+@mixin bookTitle {
+    font-size: 20px;
+    font-family: 'Inter',cursive;
+    padding: 10px 0;
+    font-weight: 600;
+    color:$black;
+}
+@mixin bookCategories {
+    font-size: 16px;
+    font-family: 'Inter',cursive;
+    padding-top: 20px;
+    font-weight: 400;
+    color:$textGategories;
+    text-decoration: underline;
+}
+@mixin bookAuthor {
+    font-size: 18px;
+    font-family: 'Inter',cursive;
+    font-weight: 400;
+    color:$textAuthors;
+}
+@mixin btn {
+    border: none;
+    color:$btnColor;
+    font-size: 20px;
+    font-family: 'Inter',cursive;
+    font-weight: 600;
+    background-color: $btnBg;
+}

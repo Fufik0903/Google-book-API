@@ -1,0 +1,28 @@
+@import './colors.scss';
+@import './vars.scss';
+@import '../../components/Header/header.scss';
+@import '../../components/MainPage/main.scss';
+@import '../../components/MainPage/BookCard/bookCard.scss';
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import '../../components/BookDescription/book.scss';
+@import '../../components/Loader/loader.scss';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+.html, body, #root{
+    background:$bgColor;
+    font-family: 'Inter', cursive;
+}
+h1,h2,h3,h4,h5,h6, p{
+    margin: 0;
+  }
+.container{
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0;
+}
