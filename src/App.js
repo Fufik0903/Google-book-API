@@ -8,7 +8,6 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <div>123</div>
         <HeaderContainer />
         <Routes>
           <Route path="/" element={<MainPageContainer />} />
